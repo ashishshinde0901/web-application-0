@@ -5,11 +5,11 @@ angular.module("myFirstapp" [] )
 
 .controller('myFirstcontroller' function ($scope) {
 
-$scope.name ='ashish';
+$scope.name ="ashish";
 $scope.sayHello= function() {
 
-return `hello ${name}`;
-}
+return hello cousera;
+};
 
 });
 
