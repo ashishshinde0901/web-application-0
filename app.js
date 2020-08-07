@@ -6,13 +6,12 @@ angular.module('myFirstapp', [] )
 
 .controller('myFirstcontroller', function ($scope) {
 
-$scope.name ="ashish";
-$scope.sayHello= function() {
-
-return hello cousera;
-};
+     $scope.name ="ashish";
+     $scope.sayHello= function() {
+     return "hello cousera";
+     };
 
 });
 
 
-})();
+} )();
