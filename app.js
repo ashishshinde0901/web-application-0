@@ -4,14 +4,21 @@
 
 angular.module('myFirstapp', [] )
 
-.controller('myFirstcontroller', function ($scope) {
+.controller('namecalculatercon', function($scope) {
+$scope.name="";
+$scope.totalvalue=0;  
+$scope.display() = function() {
+	var totalnvalue = calculate($scope.name);
+	$scope.totalvalue = totalnvalue;
+}
 
-     $scope.name ="ashish";
-     $scope.sayHello = function() {
-     	return "hello coursera";
-     };
-
-    
+function calculate(string){
+	var totalsvalue = 0
+	for (var i = 0; i <string.lenght;  i++) {
+		totalsvalue += string.charcodeAt(i);
+	}
+	return totalsvalue;
+}
 
 });
 
