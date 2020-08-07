@@ -2,17 +2,19 @@
 (function () {
 'use strict';
 
-angular.module("myFirstapp", [] )
+(function () {
+'use strict';
+
+angular.module('myFirstapp', [] )
 
 .controller('myFirstcontroller', function ($scope) {
 
-$scope.name ="ashish";
-$scope.sayHello= function() {
+     $scope.name ="ashish";
 
-return "hello cousera";
-};
+    
 
 });
 
 
-}) ()
+} )();
+
