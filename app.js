@@ -10,7 +10,7 @@ angular.module('myFirstapp', [] )
 .controller('myFirstcontroller', function ($scope) {
 
      $scope.name ="ashish";
-     $scope.sayHello() = function() {
+     $scope.sayHello = function() {
      	return "hello coursera";
      };
 
@@ -19,5 +19,5 @@ angular.module('myFirstapp', [] )
 });
 
 
-} )();
+})();
 
