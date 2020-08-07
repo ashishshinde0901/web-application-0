@@ -2,7 +2,7 @@
 (function () {
 'use strict';
 
-angular.module("myFirstapp", [] )
+angular.module('myFirstapp', [] )
 
 .controller('myFirstcontroller', function ($scope) {
 
@@ -15,4 +15,4 @@ return hello cousera;
 });
 
 
-})
+})();
