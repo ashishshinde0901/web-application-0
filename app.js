@@ -8,7 +8,7 @@ angular.module('myFirstapp', [] )
 
      $scope.name ="ashish";
 
-     };
+    
 
 });
 
