@@ -10,7 +10,7 @@ $scope.totalvalue=0;
 $scope.display = function() {
 	var totalnvalue = calculate($scope.name);
 	$scope.totalvalue = totalnvalue;
-}
+};
 
 function calculate(string){
 	var totalsvalue = 0
