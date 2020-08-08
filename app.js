@@ -7,7 +7,7 @@ angular.module('myFirstapp', [] )
 .controller('namecalculatercon', function($scope) {
 $scope.name="";
 $scope.totalvalue=0;  
-$scope.display() = function() {
+$scope.display = function() {
 	var totalnvalue = calculate($scope.name);
 	$scope.totalvalue = totalnvalue;
 }
