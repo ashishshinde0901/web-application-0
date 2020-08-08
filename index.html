@@ -8,19 +8,18 @@
 <meta charset="utf-8">
 <script  src="angular.min.js"></script>
 <script  src="app.js"></script>
-<title>My first angularJS app</title>
+<title>NAME CALCULATOR</title>
 </head>
 
 <body>
-<div ng-controller ="myFirstcontroller">
+	<h1>Name calculator</h1>
+<div ng-controller="namecalculatercon">
+<div>
 
-{{name}}
-
-{{sayHello()}}
-<input type="text" name="name" ng-model="name">
-
-
-
+your name:
+<input type="text" ng-model="name" ng-keyup= display();>
+</div>
+<div>Total numeric value of your name is:{{totalvalue}} </div>
 </div>
 </body>
 </html>
