@@ -15,7 +15,7 @@ $scope.display = function() {
 function calculate(string){
 	var totalsvalue = 0
 	for (var i = 0; i <string.lenght;  i++) {
-		totalsvalue += string.charcodeAt(i);
+		totalsvalue += string.charCodeAt(i);
 	}
 	return totalsvalue;
 }
